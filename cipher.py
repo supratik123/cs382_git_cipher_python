@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 
 def encrypt(text, key):
-    # TODO
-    pass
+    return text * key
 
 def decrypt(text, key):
-    # TODO
-    pass
+    return text[:key]
